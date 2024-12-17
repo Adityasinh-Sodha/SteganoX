@@ -60,7 +60,8 @@ SteganoX is a graphical user interface (GUI) application built using Python and 
 - Password protection uses a basic XOR encryption method and may not be suitable for highly sensitive data.
 - Larger messages may require resizing the image, which can result in a larger output file size.
 - sometime the larger messages are not readable
-- Write issue if you face any of this situations 
+- It was Crash on windows sometimes
+- Write issue if you face any of this situations
 
 ---
 
