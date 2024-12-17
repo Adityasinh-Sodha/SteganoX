@@ -222,7 +222,7 @@ def reveal_message_gui():
     # Prompt the user for a password
     password_prompt = Toplevel(root)
     password_prompt.title("Enter Password")
-    password_prompt.geometry("450x150")
+    password_prompt.geometry("670x150")
     Label(password_prompt, text="Enter password, Leave empty if you skip password earlier, Wrong Password might affect the result").pack(pady=10)
     password_entry = Entry(password_prompt, show="*", width=25)
     password_entry.pack(pady=5)
@@ -237,11 +237,11 @@ def reveal_message_gui():
 
 # Initialize Tkinter
 root = Tk()
-root.title("Enhanced Image Steganography")
+root.title("SteganoX")
 root.geometry("500x400")
 root.resizable(False, False)
 
-Label(root, text="Enhanced Image Steganography Tool", font=("Arial", 16)).pack(pady=10)
+Label(root, text="SteganoX By Adityasinh", font=("Arial", 16)).pack(pady=10)
 
 Label(root, text="Enter your message (for hiding):").pack(pady=5)
 entry_message = Entry(root, width=50)
